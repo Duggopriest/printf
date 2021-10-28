@@ -15,5 +15,6 @@ void	ft_string(t_args *args)
 	else
 	{
 		write(1, str, len);
+		args->counter += len;
 	}
 }
